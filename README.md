@@ -3,7 +3,7 @@
 
 ## Overview
 
-![Logo](screens/logo.png)
+<img src="screens/logo.png" alt="Logo" width="50%"/>
 
 GoMatch is an Android application developed with Kotlin and Firebase, offering users the ability to book sports fields across various disciplines and engage in friendly matches with opponents. The app provides a seamless experience in finding available sports facilities, scheduling matches, and fostering a sense of competition among users.
 
