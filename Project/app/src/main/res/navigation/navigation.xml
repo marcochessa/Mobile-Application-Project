@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/logIn">
+
+
+    <fragment
+        android:id="@+id/logIn"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.LoginFragment"
+        android:label="login"
+        tools:layout="@layout/login" >
+        <action
+            android:id="@+id/action_logIn_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newProfile"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.NewProfileFragment"
+        android:label="new_profile"
+        tools:layout="@layout/new_profile_fragment" />
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.HomeFragment"
+        android:label="HomePage"
+        tools:layout="@layout/home_page" >
+        <action
+            android:id="@+id/action_homePage_to_showProfileActivity"
+            app:destination="@id/showProfileActivity" />
+        <action
+            android:id="@+id/action_homePage_to_my_reservation_fragment"
+            app:destination="@id/my_reservation_fragment" />
+        <action
+            android:id="@+id/action_homePage_to_review_fragment"
+            app:destination="@id/review_fragment" />
+        <action
+            android:id="@+id/action_homePage_to_new_reservation_fragment"
+            app:destination="@id/new_reservation_fragment" />
+        <action
+            android:id="@+id/action_homePage_to_joinReservationFragment"
+            app:destination="@id/joinReservationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/showProfileActivity"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.ShowProfileActivity"
+        android:label="activity_show_profile"
+        tools:layout="@layout/show_profile_activity">
+        <action
+            android:id="@+id/action_showProfileActivity_to_editPageActivity2"
+            app:destination="@id/editPageActivity2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editPageActivity2"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.EditProfileFragment"
+        android:label="activity_edit_page"
+        tools:layout="@layout/activity_edit_page" />
+
+    <fragment
+        android:id="@+id/my_reservation_fragment"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.MainActivity"
+        android:label="my_reservation_fragment">
+        <action
+            android:id="@+id/action_my_reservation_fragment_to_editReservationFragment"
+            app:destination="@id/editReservationFragment" />
+        <action
+            android:id="@+id/action_my_reservation_fragment_to_editJoinedReservationFragment"
+            app:destination="@id/editJoinedReservationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/new_reservation_fragment"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.AddReservationsActivity"
+        android:label="add_reservation_fragment">
+        <action
+            android:id="@+id/action_new_reservation_fragment_to_confirmReservationFragment2"
+            app:destination="@id/confirmReservationFragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/review_fragment"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.ReviewsFragment"
+        android:label="review_fragment"/>
+
+    <fragment
+        android:id="@+id/confirmReservationFragment2"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.ConfirmReservationFragment"
+        android:label="confirm_reservation_page"
+        tools:layout="@layout/confirm_reservation"/>
+
+    <fragment
+        android:id="@+id/editReservationFragment"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.EditReservationFragment"
+        android:label="EditReservationFragment" />
+    <fragment
+        android:id="@+id/editJoinedReservationFragment"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.EditJoinedReservationFragment"
+        android:label="EditJoinedReservationFragment" />
+    <fragment
+        android:id="@+id/joinReservationFragment"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.JoinReservationFragment"
+        android:label="JoinReservationFragment" >
+        <action
+            android:id="@+id/action_joinReservationFragment_to_confirmJoinReservation"
+            app:destination="@id/confirmJoinReservation" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmJoinReservation"
+        android:name="it.polito.mad.g22.showprofileactivity.ui.ConfirmJoinReservation"
+        android:label="ConfirmJoinReservation" />
+
+</navigation>

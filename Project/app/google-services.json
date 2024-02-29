@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "68252810051",
+    "project_id": "mad-group22",
+    "storage_bucket": "mad-group22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68252810051:android:0b6b6d29ed51f7b15b4df6",
+        "android_client_info": {
+          "package_name": "it.polito.mad.g22.showprofileactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLWDxt_FDpnF73OWoXRpZfavGIvayZw7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

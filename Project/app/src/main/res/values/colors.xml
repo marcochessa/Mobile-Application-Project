@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_50">#EFFBE7</color>
+    <color name="green_100">#D7F4C3</color>
+    <color name="green_200">#BBEC9B</color>
+    <color name="green_300">#9DE56F</color>
+    <color name="green_400">#83DE4A</color>
+    <color name="green_500">#68D71A</color>
+    <color name="green_600">#58C60F</color>
+    <color name="green_700">#3DB200</color>
+    <color name="green_800">#1A9D00</color>
+    <color name="green_900">#007a00</color>
+
+    <color name="grey_50">#eeeeef</color>
+    <color name="grey_100">#d4d6dc</color>
+    <color name="grey_200">#b8bcc5</color>
+    <color name="grey_300">#9ca1af</color>
+    <color name="grey_400">#868c9d</color>
+    <color name="grey_500">#71788c</color>
+    <color name="grey_600">#636a7b</color>
+    <color name="grey_700">#515765</color>
+    <color name="grey_800">#41444f</color>
+    <color name="grey_900">#2d3038</color>
+
+    <color name="red" >#FF0000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- OLD
+    <color name="background">#B3D7E4CF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="light_black">#CC0D1018</color>
+    <color name="green">#FF82DE4A</color>
+    <color name="dark_green">#FF359405</color>
+    <color name="extra_dark_green">#FF236303</color>
+    <color name="upper_circle_bg">#83DF4A</color>
+    <color name="blue">#0063B1</color>
+    <color name="grey">#767676</color>
+    <color name="gray">#498205</color>
+    -->
+
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">GoMatch</string>
+    <string name="menu_photo_1">Take a picture</string>
+    <string name="menu_photo_2">Select from gallery</string>
+    <string name="bio">BIO</string>
+    <string name="bio_text">I am an avid amateur sportsperson who loves the thrill of competition and always strives to better myself. Whether it\'s on the court, field, or in the gym, I pour my heart and soul into every game, training session, and workout.</string>
+    <string name="selected_languages_hint">Selected languages</string>
+    <string name="language">LANGUAGE</string>
+    <string name="selected_sport_hint">Selected sport</string>
+    <string name="sport">SPORT</string>
+    <string name="birth">BIRTH</string>
+    <string name="age">AGE</string>
+    <string name="age_sample">32</string>
+    <string name="nick_name_sample">bigBerry</string>
+    <string name="nick_name_mainpage">\@bigBerry</string>
+    <string name="nickname">NICKNAME</string>
+    <string name="name_sample">Hannibal Berry</string>
+    <string name="name">NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="email_sample">bigberry@gmail.com</string>
+    <string name="phone">PHONE</string>
+    <string name="phone_sample">3334455667</string>
+    <string name="date_sample">11/11/98</string>
+    <string name="my_res">MY RESERVATIONS</string>
+    <string name="filter_sport">CHOOSE THE SPORT YOU WANT TO PLAY</string>
+    <string name="edit_title">Reservation details</string>
+    <string name="edit_title2">Shared reservation details</string>
+    <string name="sport_chosen">Sport:</string>
+    <string name="sport_field">Playing court:</string>
+    <string name="timeslot">Date and time:</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="list_option">List option</string>
+    <string name="achievements_label">ACHIEVEMENTS</string>
+    <string name="evaluation_label">EVALUATION</string>
+    <string name="filter_field">TAP TO FILTER BY FIELD</string>
+    <string name="missingPlayersTitle">Number of missing players:</string>
+    <string name="text_title">Update missing players:</string>
+    <string name="join_match_text">Join other matches!</string>
+    <string name="join_res">Have fun with other players!</string>
+    <string name="edit_title_cj">Shared reservation details</string>
+
+
+    <string-array name="sports_array">
+        <item>No sport selected</item>
+        <item>Soccer</item>
+        <item>Tennis</item>
+        <item>Basket</item>
+        <item>Padel</item>
+        <item>Beach Volley</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pending_reviews">Pending Reviews</string>
+    <string name="done_reviews">Done Reviews</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="default_web_client_id">68252810051-ukrods95ojdvejhqge1omd2oecc2r9ce.apps.googleusercontent.com</string>
+
+</resources>
